@@ -3,6 +3,8 @@
 DeepScan is an AI-powered system designed to detect deepfake media using machine learning models.
 The project analyzes uploaded media and identifies whether the content is real or manipulated.
 
+<img width="1855" height="843" alt="image" src="https://github.com/user-attachments/assets/01bd6255-2409-44f1-b0f0-022699080edb" />
+
 
 # Running the Project Locally
 
