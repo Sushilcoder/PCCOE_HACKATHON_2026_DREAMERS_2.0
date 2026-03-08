@@ -88,7 +88,7 @@ Confidence: 86%
  Installation
 
 Clone the repository
-git clone https://github.com/your-username/deepfake-detector.git
+git clone https://github.com/Sushilcoder/PCCOE_HACKATHON_2026_DREAMERS_2.0.git
 
 Go to backend folder
 cd backend
