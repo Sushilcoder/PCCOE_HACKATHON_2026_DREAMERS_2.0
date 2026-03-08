@@ -18,10 +18,7 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
     { name: "Dashboard", href: "/dashboard", icon: Home },
-    { name: "New Scan", href: "/dashboard/new", icon: Upload },
     { name: "Scan History", href: "/history", icon: History },
-    { name: "Analytics", href: "/analytics", icon: BarChart3 },
-    { name: "Settings", href: "/settings", icon: Settings },
 ];
 
 export function Sidebar({
