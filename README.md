@@ -55,7 +55,9 @@ Instead of downloading the ZIP, you can clone the repository.
 
 git clone https://github.com/your-username/deepscan.git
 cd deepscan
+
 npm install
+
 npm run dev
 
 # Requirements
