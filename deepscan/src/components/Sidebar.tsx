@@ -36,8 +36,8 @@ export function Sidebar({
     return (
         <aside
             className={cn(
-                "fixed left-0 top-0 h-screen bg-bg-primary border-r border-border-subtle transition-all duration-300 z-50 flex flex-col overflow-x-hidden",
-                collapsed ? "w-16" : "w-16 md:w-60"
+                "h-screen bg-bg-primary border-r border-border-subtle transition-all duration-300 z-50 flex flex-col overflow-x-hidden shrink-0",
+                collapsed ? "w-16" : "w-64"
             )}
         >
             <div className="p-6 flex items-center justify-between">

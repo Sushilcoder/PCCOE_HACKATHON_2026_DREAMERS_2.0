@@ -9,6 +9,7 @@ export default function MarketingLayout({
     return (
         <div className="relative min-h-screen">
             <LandingNavbar />
+            <div className="h-16" />
             <main>{children}</main>
             <Footer />
         </div>

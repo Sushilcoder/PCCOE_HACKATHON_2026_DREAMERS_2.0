@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export function Hero() {
     return (
-        <section className="relative pt-48 pb-32 lg:min-h-[90vh] flex items-center justify-center overflow-hidden">
+        <section className="relative pt-48 pb-32 lg:min-h-[90vh] flex items-center justify-center overflow-hidden w-full max-w-full">
             {/* Background Glow */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[500px] bg-accent-cyan/10 blur-[120px] -z-10 pointer-events-none" />
 
@@ -17,13 +17,13 @@ export function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <Badge variant="real" className="mb-8 border-accent-cyan/30 bg-accent-cyan/5 text-accent-cyan">
+                    <Badge variant="real" className="mb-8 border-accent-cyan/30 bg-accent-cyan/5 text-accent-cyan mx-auto">
                         AI-Powered Detection
                     </Badge>
                 </motion.div>
 
                 <motion.h1
-                    className="font-syne text-5xl md:text-7xl font-bold text-white mb-8 leading-[1.2] tracking-tight"
+                    className="font-syne text-5xl md:text-7xl font-bold text-white mb-8 leading-[1.2] tracking-tight text-center w-full max-w-full"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.1 }}
@@ -35,7 +35,7 @@ export function Hero() {
                 </motion.h1>
 
                 <motion.p
-                    className="font-dm-sans text-lg md:text-xl text-text-secondary max-w-2xl mx-auto mb-10 leading-relaxed"
+                    className="font-dm-sans text-lg md:text-xl text-text-secondary max-w-3xl mx-auto mb-10 leading-relaxed text-center"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}

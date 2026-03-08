@@ -13,12 +13,11 @@ export default function DashboardLayout({
     const [collapsed, setCollapsed] = useState(false);
 
     return (
-        <div className="flex min-h-screen bg-bg-primary overflow-x-hidden">
+        <div className="flex h-screen overflow-hidden bg-bg-primary">
             <Sidebar collapsed={collapsed} onToggle={() => setCollapsed(!collapsed)} />
             <div
                 className={cn(
-                    "flex-1 flex flex-col min-w-0 transition-all duration-300",
-                    collapsed ? "ml-16" : "ml-16 md:ml-60"
+                    "flex-1 flex flex-col min-w-0 transition-all duration-300 overflow-auto"
                 )}
             >
                 <Header />

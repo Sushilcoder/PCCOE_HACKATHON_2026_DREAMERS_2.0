@@ -87,8 +87,8 @@ export function FeatureGrid() {
             </div>
 
             {/* Capabilities Section */}
-            <div className="max-w-7xl mx-auto px-6 w-full pt-16">
-                <div className="text-center mb-24 max-w-3xl mx-auto space-y-4">
+            <div className="max-w-7xl mx-auto px-6 w-full pt-16 flex flex-col gap-8 relative items-center">
+                <div className="text-center mb-16 max-w-3xl mx-auto space-y-4 relative">
                     <h2 className="font-syne text-4xl md:text-5xl font-bold text-white tracking-tight">
                         One platform. Four threat surfaces.
                     </h2>
@@ -98,13 +98,13 @@ export function FeatureGrid() {
                     </p>
                 </div>
 
-                <div className="space-y-40">
+                <div className="space-y-40 w-full relative">
                     {capabilities.map((c, i) => (
                         <motion.div
                             key={c.type}
                             className={cn(
-                                "flex flex-col md:flex-row items-center gap-12 md:gap-24",
-                                i % 2 !== 0 ? "md:flex-row-reverse text-left md:text-right" : "text-left"
+                                "flex flex-col lg:flex-row items-center gap-8 md:gap-24 relative",
+                                i % 2 !== 0 ? "lg:flex-row-reverse text-left lg:text-right" : "text-left"
                             )}
                             initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}
