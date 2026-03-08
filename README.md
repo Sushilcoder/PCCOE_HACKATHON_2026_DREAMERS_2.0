@@ -44,23 +44,12 @@ Users simply upload media, and our AI models analyze it and return a fake probab
  System Architecture
 
 User Upload
-     │
-     ▼
-Frontend (Next.js)
-     │
-     ▼
-FastAPI Backend
-     │
- ┌────┼─────┬─────┐
- ▼    ▼     ▼     ▼
-Image Video Audio Text
+1. Frontend (Next.js)
+2. FastAPI Backend
+3. Image Video Audio Text
 Model Model Model Model
- │     │     │     │
- ▼     ▼     ▼     ▼
-Prediction + Confidence Score
-     │
-     ▼
-Result Dashboard
+4. Prediction + Confidence Score
+5. Result Dashboard
 
  Tech Stack
 
@@ -81,34 +70,6 @@ Frontend
 * Next.js
 * React
 * Tailwind CSS
-
-
- Project Structure
-
-deepfake-detector
-│
-├── backend
-│   ├── app.py
-│   ├── models
-│   │   ├── image_detector.py
-│   │   ├── video_detector.py
-│   │   ├── audio_detector.py
-│   │   └── text_detector.py
-│   │
-│   └── requirements.txt
-│
-├── frontend
-│   ├── pages
-│   │   └── index.js
-│   │
-│   ├── components
-│   │   ├── UploadImage.js
-│   │   ├── UploadVideo.js
-│   │   ├── UploadAudio.js
-│   │   └── ResultBox.js
-│
-└── README.md
-
 
  How It Works
 
