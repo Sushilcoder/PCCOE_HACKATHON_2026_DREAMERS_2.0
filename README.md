@@ -46,7 +46,7 @@ npm run dev
 
 After starting the server, open your browser and go to:
 
-http://localhost:3000
+http://localhost:port address 
 
 You should now see the DeepScan application running locally.
 
